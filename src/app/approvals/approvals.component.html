@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-sm bg-custom shadow">
+  
+  <span class="navbar-text text-white">
+    {{title}}
+  </span>
+
+</nav>
+<!-- <div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-8 p-r-0 title-margin-right">
+      <div class="page-header">
+        <div class="page-title">
+          <h1>Hello, <span>Welcome Here</span></h1>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 pl-0 title-margin-left">
+      <div class="page-header">
+        <div class="page-title">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a [routerLink]="['/dashboard']">Dashboard</a></li>
+            <li class="breadcrumb-item active">Approvals</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="container-fluid py-3">
+        <!-- <a [routerLink]="['./checkout']" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="btn btn-outline-primary mx-2">Checkout</a> -->
+        <a [routerLink]="['./leave']" class="btn btn-outline-primary mx-2">Leaves</a>
+        <a [routerLink]="['./timeoff']" class="btn btn-outline-primary mx-2">Timeoff</a>
+        <a [routerLink]="['./time-sheet']" class="btn btn-outline-primary mx-2">Time_sheet</a>
+</div>
+
+<router-outlet></router-outlet>

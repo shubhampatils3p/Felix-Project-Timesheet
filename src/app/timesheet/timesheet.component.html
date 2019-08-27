@@ -1,0 +1,60 @@
+<nav class="navbar navbar-expand-sm bg-custom shadow">
+  <!-- Navbar text-->
+  <span class="navbar-text text-white">
+    {{title}}
+  </span>
+
+</nav>
+<div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-8 p-r-0 title-margin-right">
+            <div class="page-header">
+              <div class="page-title">
+                
+              </div>
+            </div>
+          </div>
+          <!-- /# column -->
+          <div class="col-lg-4 pl-0 title-margin-left">
+            <div class="page-header">
+              <div class="page-title">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a [routerLink]="['/dashboard']">Dashboard</a></li>
+                  <li class="breadcrumb-item active">Timesheet</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <!-- /# column -->
+        </div>
+        <!-- /# row -->
+      </div>
+<div class="container-fluid py-5">
+    <table class="table table-striped">
+        <thead>
+            <th>Employee</th>
+            <th>Present</th>
+            <th>CheckIn</th>
+            <th>CheckOut</th>
+            <th>##</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="assets/images/employee/indian-office-worker-.jpg" class="emp-img">
+                        </div>
+                        <div class="col-sm-8">
+                            Nat
+                        </div>   
+                    </div> 
+                </td>
+                <td>Present</td>
+                <td>CheckIn</td>
+                <td>CheckOut</td>
+                <td><button type="button" class="btn btn-outline-info btn-sm">View</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,42 @@
+<div class="wrapper" >
+    <!-- Sidebar -->
+    <div class="col-md-2 px-0" id="sidebar">
+        <div class="sidebar-header">
+            <h3>{{title}}</h3>
+        </div>
+        <ul *ngIf="!authService.isLoggedIn">
+            <p><a [routerLink]="['']" >Please Login First</a></p>
+        </ul>
+            
+        <ul class="list-unstyled components" *ngIf="authService.isLoggedIn">
+            <p>Felix It System</p>
+            
+            <li>
+                <a [routerLink]="['/dashboard']" >Dashboard</a>
+            </li>
+            <li>
+                <a [routerLink]="['/timesheet']" >Timesheet</a>
+            </li>
+            <li>
+                <a [routerLink]="['/approvals']" >Approvals</a>
+            </li>
+            <li>
+                <a [routerLink]="['/employee']" >Employees</a>
+            </li>
+            <li>
+                <a [routerLink]="['/profile']" >Profile</a>
+            </li>
+            <li>
+                <a [routerLink]="['/project-list']" >Projects</a>
+            </li>
+            <li>
+                <a [routerLink]="['/profile']" >Send Message</a>
+            </li>
+
+            <li>
+                <a href="" (click)="authService.logout()">Logout</a>
+            </li>
+        </ul>
+    </div>
+
+</div>

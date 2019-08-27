@@ -1,0 +1,150 @@
+.h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6.h1 {
+    color: #373757;
+}
+.main .page-header {
+    min-height: 50px;
+    margin: 15px 0 5px;
+    padding: 0 15px;
+    border-bottom: 0;
+    border-radius: 3px;
+}
+.main .page-header h1 {
+    font-size: 18px;
+    padding: 14px 0;
+    margin: 0;
+}
+.main .page-header h1 span {
+    font-size: 14px;
+}
+.main .page-header .breadcrumb {
+    margin: 0;
+    padding: 15px;
+    background: transparent;
+    float: right;
+}
+.main .page-header .breadcrumb li a {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+}
+.main .page-header .breadcrumb li.active {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+.card {
+    background: #ffffff;
+    margin: 7.5px 0;
+    padding: 20px;
+    border: 1px solid #e7e7e7;
+    border-radius: 3px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+.card-body {
+    padding: 0;
+}
+.user-profile-tab li, .user-work h4, .user-skill h4 {
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 15px;
+    padding: 5px 0px;
+    border-bottom: 1px solid #e7e7e7;
+    font-family: 'Roboto', sans-serif;
+}
+.work-content {
+    margin-bottom: 15px;
+}
+.work-content h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+.user-skill li a {
+    line-height: 25px;
+}
+.user-skill li, a{
+    outline: none!important;
+    text-decoration: none!important;
+    color: #868e96;
+    transition: all 0.2s ease 0s;
+    font-size: 14px;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #868e96;
+    font-size: 14px;
+}
+.user-profile-name {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0px 15px;
+    color: #868e96;
+}
+.user-Location {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.user-job-title {
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    color: #5873fe;
+}
+.user-send-message {
+    margin-top: 15px;
+    
+}
+.btn-primary.active, .btn-primary:focus, .btn-primary:hover {
+    background: #2549fe;
+    border-color: #5873fe;
+    color: #ffffff;
+    box-shadow: none;
+}
+.user-profile-tab {
+    margin-top: 15px;
+    padding: 0px 15px;
+}
+.contact-information, .basic-information {
+    margin: 10px 0px;
+}
+.contact-information h4, .basic-information h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.contact-title {
+    display: inline-block;
+    padding-bottom: 15px;
+    width: 170px;
+    font-size: 16px;
+    color: #868e96;
+}
+.phone-number, .mail-address, .contact-email, .contact-website, .contact-skype, .birth-date, .gender {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #373757;
+}
+.badge {
+    padding: 5px 10px;
+    font-weight: 400;
+    border-radius: 4px;
+}
+.table .badge {
+    text-transform: uppercase;
+}
+span.badge {
+    color: #ffffff;
+    font-size: 14px;
+}
